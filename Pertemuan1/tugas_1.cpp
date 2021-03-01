@@ -2,7 +2,6 @@
 //  STMIK TOP MARTKOTOP Yogyakarta
 //  Jurusan Teknik Informatika
 
-
 #include <iostream>
 
 using namespace std;
