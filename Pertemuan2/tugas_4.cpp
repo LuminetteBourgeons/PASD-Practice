@@ -27,7 +27,8 @@ int main ()
     cout<<endl;
     
     
-    switch(pilihan){
+    switch(pilihan)
+    {
         case 1:
             cout<<">Capricorn"<<endl;
             cout<<endl;
@@ -88,6 +89,5 @@ int main ()
             cout<<endl;
             cout<<"Hari keberuntungan: 21 Mei 2021"<<endl;
             cout<<"Warna kesukaan    : Ungu dan Jingga"<<endl;
-
     }
 }
