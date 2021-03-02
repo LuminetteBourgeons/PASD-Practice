@@ -1,5 +1,5 @@
 # PASD-Practice
-Praktikum Algoritma dan Struktur Data
+Latihan Praktikum Algoritma dan Struktur Data
 <br>
 <br>
 <br>
