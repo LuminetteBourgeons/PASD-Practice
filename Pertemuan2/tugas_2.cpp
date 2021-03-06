@@ -19,11 +19,11 @@ int main()
     cin>>x;
     cout<<endl;
     
-    if (x>='A' && x<='Z')
+    if (x >='A' && x<= 'Z')
     {cout<<"Karakter yang anda masukkan merupakan huruf besar";}
-    else if(x>='a' && x<='z')
+    else if(x >='a' && x<= 'z')
     {cout<<"Karakter yang anda masukkan merupakan huruf kecil";}
-    else if (x>='0' && x<='9')
+    else if (x >='0' && x<= '9')
     {cout<<"Karakter yang anda masukkan merupakan angka";}
     else
     {cout<<"Karakter yang anda masukkan bukan merupakan alphanumeric";}
