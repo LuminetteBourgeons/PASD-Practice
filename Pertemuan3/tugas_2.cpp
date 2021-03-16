@@ -46,17 +46,19 @@ int main()
         string kentang;
         cout<<"Apakah ingin menambah kentang? (y/n)";
         cin>>kentang;
-        //aku kentang
-        //ya allah capek bgt knp si
         if (kentang=="y")
         {
             total=(5000+7000+4000+6000);
+            cout<<"Pesanan Anda: Menu paket 1 + Kentang"<<endl;
             cout<<"Total yang harus dibayar:"<<total<<endl<<endl;
+            cout<<"Terimakasih banyak!"<<endl<<endl;
         }
         else if (kentang=="n")
         {
             total=(5000+7000+4000);
+            cout<<"Pesanan Anda: Menu paket 1"<<endl;
             cout<<"Total yang harus dibayar:"<<total<<endl<<endl;
+            cout<<"Terimakasih banyak!"<<endl<<endl;
         }
     }
     else if (pilihan==2)
@@ -64,17 +66,19 @@ int main()
         string kentang;
         cout<<"Apakah ingin menambah kentang? (y/n)";
         cin>>kentang;
-        //aku kentang
-        //ya allah capek bgt knp si
         if (kentang=="y")
         {
             total=(5000+4000+6000);
+            cout<<"Pesanan Anda: Menu paket 2 + Kentang"<<endl;
             cout<<"Total yang harus dibayar:"<<total<<endl<<endl;
+            cout<<"Terimakasih banyak!"<<endl<<endl;
         }
         else if (kentang=="n")
         {
             total=(5000+4000);
+            cout<<"Pesanan Anda: Menu paket 1"<<endl;
             cout<<"Total yang harus dibayar:"<<total<<endl<<endl;
+            cout<<"Terimakasih banyak!"<<endl<<endl;
         }
     }
     else if (pilihan==3)
@@ -92,7 +96,9 @@ int main()
         cout<<"Minum    :";
         cin>>minum;
         total = (nasi*5000)+(ayam*7000)+(burger*5000)+(kentang*6000)+(minum*4000);
+        cout<<"Pesanan Anda: "<<nasi<<" nasi, "<<ayam<<" ayam, "<<burger<<" burger, "<<kentang<<" kentang, dan "<<minum<<" minum."<<endl;
         cout<<"Total yang harus dibayar:"<<total<<endl<<endl;
+        cout<<"Terimakasih banyak!"<<endl<<endl;
     }
     else
     {
